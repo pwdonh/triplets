@@ -1,0 +1,61 @@
+﻿,participant_id,age,Country of Birth,Current Country of Residence,English speaking Monolingual,First Language,Sex,l1,group,sex,langgroup,nativeness
+5104,5f74af468549be0a901bd70a,21,United Kingdom,United Kingdom,I only know English,English,Female,english,english_uk,female,english,native
+5105,5f48b22e88eb74375510b57c,23,United Kingdom,United Kingdom,I only know English,English,Male,english,english_uk,male,english,native
+5131,5f53c41a05affe6fdbed5168,19,United Kingdom,United Kingdom,I only know English,English,Female,english,english_uk,female,english,native
+5132,60d65a2e6e744e4596cba461,23,United Kingdom,United Kingdom,I only know English,English,Male,english,english_uk,male,english,native
+5136,5ea1c0f9b35e1109bb93dd20,19,United Kingdom,United Kingdom,I only know English,English,Female,english,english_uk,female,english,native
+5137,609308bde839875a0ed8b8a9,27,United Kingdom,United Kingdom,I only know English,English,Female,english,english_uk,female,english,native
+5158,5e94860a9ad2942dc5015711,20,United Kingdom,United Kingdom,I only know English,English,Female,english,english_uk,female,english,native
+5160,60c75ff4ee16aa04cfcd60bf,20,United Kingdom,United Kingdom,I only know English,English,Male,english,english_uk,male,english,native
+5161,60c7aec75ed5135a58faf813,45,United Kingdom,United Kingdom,I only know English,English,Female,english,english_uk,female,english,native
+5180,60d0aebb6fc0867a91db8282,22,United Kingdom,United Kingdom,I only know English,English,Female,english,english_uk,female,english,native
+5185,608fef0be7832b05dfd9d56d,19,United Kingdom,United Kingdom,I only know English,English,Male,english,english_uk,male,english,native
+5184,6078421a82b88488a16a2b1f,32,United Kingdom,United Kingdom,I only know English,English,Female,english,english_uk,female,english,native
+5186,6058dba20257f28be1920c5c,47,United Kingdom,United Kingdom,I only know English,English,Female,english,english_uk,female,english,native
+5224,611e6e0371738becff3551d8,18,United Kingdom,United Kingdom,I only know English,English,Female,english,english_uk,female,english,native
+5223,61150dc88df7514d99d56af5,21,United Kingdom,United Kingdom,I only know English,English,Female,english,english_uk,female,english,native
+5226,5fa3828e70d44c68e35ca305,41,United Kingdom,United Kingdom,I only know English,English,Male,english,english_uk,male,english,native
+5227,61203db5c472e102f6a31867,29,United Kingdom,United Kingdom,I only know English,English,Male,english,english_uk,male,english,native
+5228,602d25c3cc46516b77b98c28,39,United Kingdom,United Kingdom,I only know English,English,Female,english,english_uk,female,english,native
+5229,61197b469838f3a6ccfe0b9a,26,United Kingdom,United Kingdom,I only know English,English,Female,english,english_uk,female,english,native
+5230,611d378f0cce9add359a8324,19,United Kingdom,United Kingdom,I only know English,English,Female,english,english_uk,female,english,native
+5100,60cf278fb23e7b5ac8967490,28,Switzerland,Switzerland,,French,Female,french,french,female,romance,nonnative
+5101,600816c1eaebcf3751af6865,22,Belgium,Belgium,,French,Female,french,french,female,romance,nonnative
+5102,5fc10a0a31a39e0a308b6194,22,Vietnam,Belgium,,French,Female,french,french,female,romance,nonnative
+5122,60698d567b61f5cd0c57b368,30,Belgium,Belgium,,French,Female,french,french,female,romance,nonnative
+5130,60c79f56a6ace233a690c537,19,France,France,,French,Female,french,french,female,romance,nonnative
+5145,5feb5b328422b4722c08843f,22,France,France,,French,Male,french,french,male,romance,nonnative
+5146,5c6c0ed215875900019bf4d8,21,France,France,,French,Male,french,french,male,romance,nonnative
+5147,60c7cc3edbfd3121e3b553fb,20,Belgium,Belgium,,French,Male,french,french,male,romance,nonnative
+5148,608ae665000987dee19d8934,23,France,France,,French,Male,french,french,male,romance,nonnative
+5164,60a10e1de3ee3737f08a517c,23,Belgium,Belgium,,French,Female,french,french,female,romance,nonnative
+5166,60cb146b583ee0d79a7e80cc,18,France,France,,French,Male,french,french,male,romance,nonnative
+5167,601efedca5824c3e2767c892,24,France,France,,French,Female,french,french,female,romance,nonnative
+5169,60c9019448ea85dc9d85dbdc,21,France,France,,French,Female,french,french,female,romance,nonnative
+5170,5e70e14f8cd169064e5781e9,20,France,France,,French,Male,french,french,male,romance,nonnative
+5189,6001bef6297b5c0f7f6d089b,20,France,France,,French,Male,french,french,male,romance,nonnative
+5191,60db302f9c0d570c7f2e7653,18,France,France,,French,Female,french,french,female,romance,nonnative
+5192,606601c0d781efb83ac2dce4,30,France,France,,French,Male,french,french,male,romance,nonnative
+5233,61070401a557fd863bd0ac26,18,France,France,,French,Male,french,french,male,romance,nonnative
+5237,61090783a01b97fbe95024dc,21,France,France,,French,Female,french,french,female,romance,nonnative
+5244,610bf50184d89a31761e243d,23,France,France,,French,Male,french,french,male,romance,nonnative
+5106,60d5c473efa1cf467e529129,27,Germany,Germany,,German,Female,german,german,female,germanic,nonnative
+5112,60cb0517890a97786899d2ea,24,Germany,Germany,,German,Female,german,german,female,germanic,nonnative
+5123,601801e07f813cac4bdde144,20,Germany,Germany,,German,Male,german,german,male,germanic,nonnative
+5124,60da21dd73dff4888b35564f,25,Germany,Germany,,German,Male,german,german,male,germanic,nonnative
+5125,5f4cd7926e1f3e8ed56bd215,19,Germany,Germany,,German,Male,german,german,male,germanic,nonnative
+5138,60d10503b38976552a1b35da,24,Germany,Germany,,German,Male,german,german,male,germanic,nonnative
+5139,60d440a71dc9476a8ae48cae,27,Germany,Germany,,German,Male,german,german,male,germanic,nonnative
+5143,60b819266c656fa8a43d5be1,21,Germany,Germany,,German,Male,german,german,male,germanic,nonnative
+5144,6046c35a85aec60f5a09d11c,23,Austria,Austria,,German,Male,german,german,male,germanic,nonnative
+5151,60bfc9efc639f29ac485ac6d,19,Germany,Germany,,German,Female,german,german,female,germanic,nonnative
+5154,60060089125e50636ad6719e,24,Germany,Germany,,German,Female,german,german,female,germanic,nonnative
+5156,60c9f510282b994f965f122d,23,Germany,Germany,,German,Male,german,german,male,germanic,nonnative
+5163,5c33373d01439b0001a09cdc,25,Germany,Germany,,German,Male,german,german,male,germanic,nonnative
+5173,60df43042ab7b3826861bb39,36,Germany,Germany,,German,Male,german,german,male,germanic,nonnative
+5174,5fef28c2feba31d456459420,20,Germany,Germany,,German,Female,german,german,female,germanic,nonnative
+5176,5f84ace0af0c021529fc4e3d,23,Germany,Germany,,German,Male,german,german,male,germanic,nonnative
+5177,60140a6677aab7353e504619,22,Germany,Germany,,German,Male,german,german,male,germanic,nonnative
+5178,5fb6d4a5ed317d13eac3455e,40,Germany,Germany,,German,Male,german,german,male,germanic,nonnative
+5179,5f58c7ac49483e055a5b96bb,19,Austria,Austria,,German,Male,german,german,male,germanic,nonnative
+5242,60fdb038bb7b41e60152a00c,18,Germany,Germany,,German,Female,german,german,female,germanic,nonnative

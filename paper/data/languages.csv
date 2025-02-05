@@ -1,0 +1,9 @@
+,language,langgroup,nativeness,color1,color2
+english_us,english,english,native,#a6cee3,#1f78b4
+english_uk,english,english,native,#1f78b4,#1f78b4
+dutch,dutch,germanic,nonnative,#b2df8a,#33a02c
+german,german,germanic,nonnative,#33a02c,#33a02c
+spanish,spanish,romance,nonnative,#fdbf6f,#ff7f00
+french,french,romance,nonnative,#ff7f00,#ff7f00
+polish,polish,slavic,nonnative,#cab2d6,#6a3d9a
+russian,russian,slavic,nonnative,#6a3d9a,#6a3d9a
