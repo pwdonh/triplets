@@ -2,4 +2,21 @@
 
 Code accompanying the following paper: https://doi.org/10.31234/osf.io/agpb5_v1
 
-Install the package with ```pip install .``` and check the code in [paper/](paper/) to run the analyses reported in the paper.
+This repository contains a python package to fit models on data from the odd-one-out task as described in the paper. 
+
+In [paper/](paper/) you can find the code and data to reproduce the results from the paper (the speaker odd-one-out task).
+
+## Installation
+
+Dependencies are included in the [environment.yml](environment.yml) file and can be installed in a conda environment 
+
+```
+conda env create -f environment.yml
+```
+
+You can then install the package with 
+```
+pip install .
+```
+
+and run the test script in [tests/](tests/)
