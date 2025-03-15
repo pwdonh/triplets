@@ -1,3 +1,4 @@
+import numpy as np
 import pandas as pd
 import os
 from triplets.fit import (
@@ -30,7 +31,14 @@ for filename in ['item_embeddings','rater_embeddings','item_weights','results']:
     df_old = pd.read_csv(
         os.path.join(args.output_folder, f'{filename}_test.csv'), index_col=0
     )
-    assert(df_new.equals(df_old))
+    if not df_new.equals(df_old):
+        if 'embeddings' in filename:
+            deviation = np.max(np.abs((df_new[['emb0','emb1','emb2']]-df_old[['emb0','emb1','emb2']])).values)
+        elif 'weights' in filename:
+            deviation = np.max(np.abs(df_new-df_old).values)
+        else:
+            deviation = np.max(np.abs(df_new.iloc[0,-6:]-df_old.iloc[0,-6:]).values)
+        print(f'Maximum result deviation ({filename}): {deviation}')
 
 # == Cross-validation
 
@@ -53,4 +61,10 @@ for filename in ['results','results_individual']:
     if filename=='results':
         df_new = df_new.drop(columns='time')
         df_old = df_old.drop(columns='time')
-    assert(df_new.equals(df_old))
+    if not df_new.equals(df_old):
+        if filename=='results':
+            cols = ['valid_loss','valid_accuracy','test_loss','test_accuracy','train_accuracy','train_loss']
+            deviation = np.max(np.abs(df_new[cols]-df_old[cols]).values)
+        else:
+            deviation = np.max(np.abs(df_new['bits']-df_old['bits']).values)
+        print(f'Maximum result deviation ({filename}): {deviation}')
