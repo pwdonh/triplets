@@ -19,4 +19,8 @@ You can then install the package with
 pip install .
 ```
 
-and run the test script in [tests/](tests/) to check that your setup is working.
+and run the test script in [tests/](tests/) to ensure the installation is working.
+
+## Usage
+
+Please refer to the Jupyter notebooks in [examples/](examples/) for demonstrations of how to model odd-one-out choices using our approach.
