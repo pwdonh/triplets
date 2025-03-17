@@ -26,6 +26,8 @@ def parse_args(args=None, config_path=None):
         parser = argparse.ArgumentParser()
         parser.add_argument('--config_path', type=str, default='configs/example.cfg')
         args = parser.parse_args()
+    else:
+        args = Namespace()
 
     if config_path is not None:
         args.config_path = config_path
@@ -200,14 +202,15 @@ def get_model(trainset, validset, args, rater_mask=None, fit=True):
 
     return model
 
-def evaluate(model, trainset, validset, testset, verbose=True):
+def evaluate(model, trainset, validset=None, testset=None, verbose=True):
     results = {}
     for dataset, splitname in zip([trainset, validset, testset], ['train', 'valid', 'test']):
-        loss, accuracy = model.test(dataset)
-        results[splitname+'_loss'] = loss
-        results[splitname+'_accuracy'] = accuracy
-        if verbose:
-            print(f'{splitname} loss: {loss}, {splitname} accuracy: {accuracy}')
+        if dataset is not None:
+            loss, accuracy = model.test(dataset)
+            results[splitname+'_loss'] = loss
+            results[splitname+'_accuracy'] = accuracy
+            if verbose:
+                print(f'{splitname} loss: {loss}, {splitname} accuracy: {accuracy}')
     return results
 
 def design_matrix(df, variables):
@@ -285,4 +288,7 @@ def fit_triplets(args):
     )
     model = get_model(trainset, validset, args)
 
-    return evaluate(model, trainset, validset, testset), model
+    if args.fold=='none':
+        return evaluate(model, trainset, None, None), model
+    else:
+        return evaluate(model, trainset, validset, testset), model
