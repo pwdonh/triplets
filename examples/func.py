@@ -56,7 +56,7 @@ def simulate_triplet_dataset(model, df_items, df_raters, num_trials, items_per_t
                 df_triplets.loc[index,f'stim_{selected[trial]}'] = items[trial,3+i_triplet]
 
     df_triplets = pd.concat(dfs_triplets)
-    return df_triplets.sort_index().sort_values('rater').reset_index(drop=True)
+    return df_triplets.sort_values(['rater','trial_index','i_triplet']).reset_index(drop=True)
 
 
 def mouse_cursor(scale, offset, linewidth=1):
