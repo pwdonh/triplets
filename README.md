@@ -19,4 +19,4 @@ You can then install the package with
 pip install .
 ```
 
-and run the test script in [tests/](tests/)
+and run the test script in [tests/](tests/) to check that your setup is working.
