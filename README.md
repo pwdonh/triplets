@@ -14,7 +14,7 @@ Dependencies are included in the [environment.yml](environment.yml) file and can
 conda env create -f environment.yml
 ```
 
-You can then install the package with 
+which should take less than five minutes. You can then install the package with 
 ```
 pip install .
 ```
