@@ -202,14 +202,14 @@ def get_model(trainset, validset, args, rater_mask=None, fit=True):
 
     return model
 
-def evaluate(model, trainset, validset=None, testset=None, verbose=True):
+def evaluate(model, trainset, validset=None, testset=None, verbose=True, print_tests=True):
     results = {}
     for dataset, splitname in zip([trainset, validset, testset], ['train', 'valid', 'test']):
         if dataset is not None:
             loss, accuracy = model.test(dataset)
             results[splitname+'_loss'] = loss
             results[splitname+'_accuracy'] = accuracy
-            if verbose:
+            if verbose & (print_tests|(splitname=='train')):
                 print(f'{splitname} loss: {loss}, {splitname} accuracy: {accuracy}')
     return results
 
@@ -289,6 +289,6 @@ def fit_triplets(args):
     model = get_model(trainset, validset, args)
 
     if args.fold=='none':
-        return evaluate(model, trainset, None, None), model
+        return evaluate(model, trainset, validset, testset, True, False), model
     else:
-        return evaluate(model, trainset, validset, testset), model
+        return evaluate(model, trainset, validset, testset, True, True), model

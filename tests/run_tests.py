@@ -37,7 +37,7 @@ for filename in ['item_embeddings','rater_embeddings','item_weights','results']:
         elif 'weights' in filename:
             deviation = np.max(np.abs(df_new-df_old).values)
         else:
-            deviation = np.max(np.abs(df_new.iloc[0,-6:]-df_old.iloc[0,-6:]).values)
+            deviation = np.max(np.abs(df_new.iloc[0,-2:].values-df_old.iloc[0,-2:].values))
         print(f'Maximum result deviation ({filename}): {deviation}')
 
 # == Cross-validation
